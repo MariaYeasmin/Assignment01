@@ -72,11 +72,14 @@
 /* banner ends  */
 
 /* web development part starts */
+main {
+  margin-left: 148px;
+  margin-right: 150px;
+}
 
 .web-container {
   margin-top: 75px;
-  margin-left: 148px;
-  margin-right: 152px;
+
   padding: 80px 97px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -164,4 +167,40 @@
   font-size: 20px;
   font-weight: 600;
   color: #0d1321;
+}
+
+/* web development part ends  */
+
+.inspiration-container {
+  margin-top: 88px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inspiration-container > p {
+  max-width: 852px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.current-target {
+  margin-top: 141px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
 }
