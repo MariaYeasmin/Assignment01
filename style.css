@@ -31,3 +31,40 @@
   font-weight: 600;
   font-size: 20px;
 }
+/* navbar ends  */
+
+/* banner starts  */
+
+.banner-container {
+  margin-top: 47px;
+
+  background-image: url(assets/Hero-bg.png);
+  background-size: cover;
+}
+.banner-elements {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 26px;
+  padding-bottom: 44px;
+}
+.banner-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+}
+.banner-btn {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px;
+  color: white;
+  font-size: 20px;
+}
