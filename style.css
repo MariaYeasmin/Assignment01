@@ -195,6 +195,10 @@ main {
   border-radius: 16px;
 }
 
+iframe {
+  border-radius: 16px;
+}
+
 .current-target {
   margin-top: 141px;
   display: flex;
@@ -203,4 +207,72 @@ main {
   align-items: center;
   text-align: center;
   gap: 24px;
+}
+
+/* skill section starts */
+
+.web-skills {
+  margin-top: 48px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.skill1 {
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  flex: 1;
+}
+.skill1 > h4 {
+  margin-top: 24px;
+}
+.skill1 > p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.skill1 > a {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skill2 {
+  padding: 40px;
+  background-color: rgba(0, 76, 232, 0.05);
+  border-radius: 16px;
+  flex: 1;
+}
+.skill2 > h4 {
+  margin-top: 24px;
+}
+.skill2 > p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.skill2 > a {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skill3 {
+  padding: 40px;
+  background-color: rgba(255, 223, 0, 0.05);
+  border-radius: 16px;
+  flex: 1;
+}
+.skill3 > h4 {
+  margin-top: 24px;
+}
+.skill3 > p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.skill3 > a {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
 }
