@@ -26,7 +26,12 @@
             passion <br />
             for becoming a skilled developer.
           </p>
-          <button class="banner-btn">Contact with me</button>
+          <button
+            onclick="document.getElementById('footerScroll').scrollIntoView({ behavior: 'smooth' });"
+            class="banner-btn"
+          >
+            Contact with me
+          </button>
         </div>
       </section>
     </header>
@@ -168,6 +173,17 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer id="footerScroll">
+      <div class="footer">
+        <div>
+          <h3 class="footer-title">An open commitment by Maria.M</h3>
+        </div>
+        <div class="img">
+          <img src="assets/facebook.png" alt="" />
+          <img src="assets/github.png" alt="" />
+          <img src="assets/linkedin-icon 1.png" alt="" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
