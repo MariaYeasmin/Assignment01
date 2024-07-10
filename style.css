@@ -276,3 +276,59 @@ iframe {
   font-weight: 700;
   font-size: 16px;
 }
+/* skill section ends */
+
+/* support section starts  */
+.support {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(assets/handshake.jpg);
+}
+
+.parent {
+  margin: 64px 48px;
+}
+.titledes > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.titledes > p {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  color: white;
+}
+.inputsub {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.input1 {
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+.input2 {
+  padding: 20px;
+  width: fit-content;
+  border-radius: 8px;
+  font-size: 17px 20px;
+  font-weight: 600;
+  background-color: white;
+}
